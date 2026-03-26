@@ -1,7 +1,7 @@
 const http = require("http");
 
 const server = http.createServer((req, res) => {
-    res.end("Hello from Multi Stage Docker Build 🚀");
+    res.end("Hello from Multi Stage Docker Build ");
 });
 
 server.listen(3000, () => {
